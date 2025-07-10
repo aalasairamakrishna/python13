@@ -78,3 +78,9 @@ c=int(input("enter c:"))
 maxi,mini=max_min(a,b,c)
 print("maximum",max)
 print("minimum",min)
+
+
+
+nums=[1,2,3,4,5,6]
+sq=list(map(lambda n:n*n,nums))
+print(sq)
